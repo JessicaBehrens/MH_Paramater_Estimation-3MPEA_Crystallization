@@ -5,7 +5,7 @@ This code is used to generate the results presented in
 Moving Horizon Parameter Estimation for an Enzyme Catalyzed Transamination Reaction with Integrated Product Removal - 
 M.Sc. Jessica Behrens, M.Sc. Sven Tiedemann, M.Sc. Tom Kunde, Prof. Dr. Jan von Langermann  and Prof. Dr.-Ing. Achim Kienle
 
-For more information please refer to the paer [link will follow]().
+For more information please refer to the paper [link will follow]().
 The code is structured as follows: 
 
 **General Functions:**
@@ -21,7 +21,7 @@ The code is structured as follows:
 **Profile_Likelihood:** 
 - profile likelihood calculations
   - The confidence intervals can be tested by your own generation of test samples or by loading '500_para_est.mat'
-    where 5000 test samples were generated and saved.
+    where 5000 test samples were generated and saved (see respective main file)
 
   - subfolders:
     - PL_in_MHE_batch - calculation of profile likelihoods in the moving horizon window for the batch scenario
