@@ -7,7 +7,7 @@ M.Sc. Jessica Behrens, M.Sc. Sven Tiedemann, M.Sc. Tom Kunde, Prof. Dr. Jan von 
 
 The code is structured as follows: 
 
-General Functions: * folder with subfolders containing all necessary files and functions to make some general definitions, store parameters etc. for all further calculations.
+General Functions: - folder with subfolders containing all necessary files and functions to make some general definitions, store parameters etc. for all further calculations.
                    * folder needs to be incoperated into every 'main_[].m' by adding the file path. The location where to add the path is indicated in the 'main_[].m'-files.
 
 MHE_batch: * moving horizon parameter estimation for the batch scenario
