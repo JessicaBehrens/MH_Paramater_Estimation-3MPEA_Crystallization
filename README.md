@@ -20,7 +20,7 @@ The code is structured as follows:
 
 **Profile_Likelihood:** 
 - profile likelihood calculations
-  - The confidence intervals can be tested by your own generation of test samples or by loading '500_para_est.mat'
+  - The confidence intervals can be tested by your own generation of test samples or by loading '5000_para_est.mat'
     where 5000 test samples were generated and saved (see respective main file)
 
   - subfolders:
