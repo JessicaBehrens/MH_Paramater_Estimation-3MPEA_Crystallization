@@ -45,7 +45,7 @@ function [Obj,x_int] = obj_MHE_PL_input(decision_var,para_states_full_pl,x0_tH,P
     Obj = Arr_error' * inv(P) * Arr_error; 
     
     % ------------------------------------------------------------- current states and measurements ------------------------------------------------------------------------------------------------------
-      [x_int] = int_ode_mit_input(Para,x0_tH,tH,idx_feed_tH,x0_feed,p);
+      [x_int] = int_ode_rep_batch(Para,x0_tH,tH,idx_feed_tH,x0_feed,p);
     % ------------------------------------------------------------- current states and measurements ------------------------------------------------------------------------------------------------------
    
     % model output

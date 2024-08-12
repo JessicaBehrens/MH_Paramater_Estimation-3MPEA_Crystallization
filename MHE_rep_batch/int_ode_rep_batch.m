@@ -1,4 +1,4 @@
-function [x_int] = int_ode_mit_input(Para,x0_tH,tH,idx_feed_tH,x0_feed,p)
+function [x_int] = int_ode_rep_batch(Para,x0_tH,tH,idx_feed_tH,x0_feed,p)
 
 
   if ~isempty(idx_feed_tH)

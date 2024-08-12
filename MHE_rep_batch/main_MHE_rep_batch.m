@@ -154,7 +154,7 @@ for Sim_idx = 1:Num_dist
         Para_pred = 10.^Para_pred;
     
         % calculate initial condition by propagating intial estimate through ode system
-        x_int_tH = int_ode_mit_input(Para_pred,x0_tH,tH,idx_feed_tH,x0_feed,p)';
+        x_int_tH = int_ode_rep_batch(Para_pred,x0_tH,tH,idx_feed_tH,x0_feed,p)';
         
   
         % calculate Model preditcion

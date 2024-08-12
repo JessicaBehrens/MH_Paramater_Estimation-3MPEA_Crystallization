@@ -33,7 +33,7 @@ function [Obj,x_int] = obj_MHE_input(decision_var,x0_tH,Para_prev,y_tH,tH,P,x0_f
     Obj = Arr_error' * inv(P) * Arr_error; 
 
     % ------------------------------------------------------------- current states and measurements ------------------------------------------------------------------------------------------------------
-      [x_int] = int_ode_mit_input(Para,x0_tH,tH,idx_feed_tH,x0_feed,p);
+      [x_int] = int_ode_rep_batch(Para,x0_tH,tH,idx_feed_tH,x0_feed,p);
     % ------------------------------------------------------------- current states and measurements ------------------------------------------------------------------------------------------------------
    
     % model output
