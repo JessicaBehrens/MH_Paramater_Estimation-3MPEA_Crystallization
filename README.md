@@ -5,7 +5,7 @@ This code is used to generate the results presented in
 Moving Horizon Parameter Estimation for an Enzyme Catalyzed Transamination Reaction with Integrated Product Removal - 
 Jessica Behrens, Sven Tiedemann, Tom Kunde, Jan von Langermann, Achim Kienle
 
-For more information please refer to the paper [link will follow]().
+For more information please refer to the paper [https://doi.org/10.1002/cite.202400106].
 The code is structured as follows: 
 
 **General Functions:**
